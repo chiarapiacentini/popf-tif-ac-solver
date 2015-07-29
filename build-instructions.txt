@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# To build the Newton-Raphson Power flow equations solver:
+#
+#  ./build-instructions.txt
+#
+
+
+mkdir ../build
+cd ../build
+cmake -DCMAKE_VERBOSE_MAKEFILE=TRUE  ../src
+
+
+cd ../src
+
+echo "If cmake succeeded (i.e. no errors such as missing libraries were reported),"
+echo "you can make a debug build by:"
+echo 
+echo "cd ../build"
+echo "make network"
+echo
+
