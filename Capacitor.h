@@ -2,7 +2,6 @@
 #define __Capacitor_h__
 #include <iostream>
 #include <map>
-#include <boost/iterator/iterator_concepts.hpp>
 
 using namespace std;
 
