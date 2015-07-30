@@ -32,3 +32,16 @@ make network
 ```
 
 This creates a dynamic library libnetwork.so
+
+### Usage
+
+To run POPF-TIF with the ac solver
+
+```sh
+./popf3-clp -x ac-domain problemfile libnetwork.so networkfile
+```
+
+The input file of the external solver contains the network configuration in the [Matpower](http://www.pserc.cornell.edu//matpower/) format.
+
+
+For more detailed information, please visit our Wiki Page.
